@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="css/reponsive.css">
+    <link rel="stylesheet" href="css//utility.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- ________________________________________________________________________________________  -->
+        <div class="left">
+            <!-- ..................................................................................... -->
+            <div class="HomeBar">
+                <div class="logo-close">
+                    <div class="logo">
+                        <img class="filter" src="UtilitySvg/logo.svg" alt="logo">
+                    </div>
+                    <div>
+                        <img src="UtilitySvg/cross.svg" class="close filter" alt="">
+                    </div>
+                </div>
+
+
+                <div class="homesearch">
+                    <div><img class="filter" src="UtilitySvg/home.svg" alt="">
+                        <p>Home</p>
+                    </div>
+                    <div> <img class="filter" src="UtilitySvg/search.svg" alt="">
+                        <p>Search</p>
+                    </div>
+                </div>
+
+            </div>
+            <!-- ..................................................................................... -->
+            <div class="Your-Library">
+                <div class="nav">
+                    <img class="filter" src="UtilitySvg/library.svg" alt="Icon">
+                    <p> Your Library</p>
+                </div>
+                <div class="songslists">
+                    <ul> </ul>
+                </div>
+
+                <div class="footer">
+                    <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                </div>
+            </div>
+        </div>
+        <!-- ..................................................................................... -->
+        <!-- ________________________________________________________________________________________  -->
+        <div class="right">
+            <div class="navbar">
+                <div class="ham-arrow">
+                    <img src="UtilitySvg/hamburger.svg" class="hamburger filter" alt="22">
+                    <div class="arrow">
+                        <img src="UtilitySvg/leftarrow.svg" alt="">
+                        <img src="UtilitySvg/rightarrow.svg" alt="">
+                    </div>
+                </div>
+
+
+                <div class="buttons">
+                    <button class="signup">Sign up</button>
+                    <button class="login">Log in</button>
+                </div>
+
+            </div>
+            <div class="heading">
+                <h1>Your Playlists</h1>
+            </div>
+
+
+            <div class="albumcontainer"></div>
+            <div class="PlaybarContainer">
+                <div class="songdetail">
+                    <div class="songinfo"></div>
+                    <div class="timevol">
+                        <div class="songduration"></div>
+                        <div class="volume">
+                            <div class="volumeimg">
+                                <img src="UtilitySvg/volume.svg" alt="">
+                            </div>
+                            <div>
+                                <input style="cursor: pointer;" type="range" name="volume" id="volume-range">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="control">
+                    <img id="previous" src="UtilitySvg/prvsong.svg" alt="">
+                    <img id="play" src="UtilitySvg/play.svg" alt="">
+                    <img id="next" src="UtilitySvg/nextsong.svg" alt="">
+                </div>
+                <div class="durationcontrol">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ________________________________________________________________________________________  -->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

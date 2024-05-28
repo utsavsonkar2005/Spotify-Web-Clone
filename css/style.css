@@ -1,0 +1,523 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.right .navbar .hamburger{
+    /* this property will show the hamburger icon after the breakpoint is crossed */
+    display: none;
+    /* background-color: red; */
+}
+body {
+    background-color: rgb(0, 0, 0);
+    /* overflow-y: hidden; */
+    /* overflow-y: auto; */
+    /* overflow-x: hidden; */
+    overflow: hidden;
+}
+
+div.main {
+    display: flex;
+    gap: 10px;
+    margin: 10px 5px;
+    /* padding: 30px; */
+    /* padding-bottom: 0px; */
+
+}
+
+
+/* Style for customisable scrollbar */
+::-webkit-scrollbar {
+    width: 2px;
+    /* Width of the vertical scrollbar */
+    height: 12px;
+    /* Height of the horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #121212;
+    /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #464646;
+    /* Color of the scrollbar thumb */
+    border-radius: 5px;
+    /* Rounded corners of the scrollbar thumb */
+    /* border: 3px solid #2e2e2e; */
+    /* Creates padding around the thumb */
+}
+
+/* ____________________________________________________________________________________________________ */
+div.left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 98vh;
+}
+.logo-close{
+    display: flex;
+    align-items: center;
+}
+.close img{
+    width: 30px;
+    height: 30px;
+ 
+}
+
+/* .................................................................................................... */
+div.left .HomeBar {
+    height: 20vh;
+    width: 23vw;
+    background-color: #121212;
+    border-radius: 5px;
+    padding: 20px 0px;
+}
+ .logo-close .close img{
+    display: none;
+}
+img.close.filter{
+    display: none;
+
+}
+
+div.left .HomeBar>div {
+    padding: 0px 25px;
+}
+
+div.left .HomeBar .homesearch p {
+    list-style: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+
+div.left .HomeBar .homesearch {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 14px 25px;
+
+
+}
+
+div.left .HomeBar .homesearch div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+div.left .HomeBar .homesearch div img {
+    height: 32px;
+    width: 25px;
+
+}
+
+/* .................................................................................................... */
+div.left .Your-Library {
+    height: 100vh;
+    width: 23vw;
+    background-color: #121212;
+    border-radius: 5px;
+    position: relative;
+}
+
+div.left .Your-Library .songslists {
+    background-color: rgb(0, 0, 0);
+    min-height: auto;
+    margin: 0px 10px;
+    border-radius: 10px;
+    /* padding: 30px; */
+    overflow-y: auto;
+}
+
+div.left .Your-Library .songslists ul li {
+
+    padding: 5px 5px;
+
+}
+
+div.left .Your-Library .songslists ul li .songcard {
+    height: 60px;
+    border: 1px solid white;
+    background-color: #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px;
+}
+
+div.left .Your-Library .songslists ul li .songcard img {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.songcard div.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+div.left .Your-Library .songslists ul li .songcard .text h4 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size:12px;
+    width: 120px;
+    /* line-height: 20px; */
+    font-weight: 500;
+    margin: 0px 0px 4px 0px;
+
+}
+
+div.left .Your-Library .songslists ul li .songcard .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+}
+
+div.left .Your-Library .songslists ul li .songcard .play img {
+    height: 20px;
+    width: 20px;
+
+
+}
+
+div.left .Your-Library .songslists ul li .songcard .play p {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding: 0px 0px;
+    /* width: auto; */
+    /* margin: 30px 0px; */
+    /* line-height: 10px; */
+}
+
+div.left .Your-Library .nav img {
+    height: 35px;
+    width: 25px;
+
+}
+
+div.left .Your-Library .nav {
+    padding: 5px 0px;
+    margin: 0px 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+div.left .Your-Library .nav p {
+
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: sans-serif;
+
+
+}
+
+div.left .Your-Library .footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 10px
+}
+
+div.left .Your-Library .footer a {
+    color: #a7a7a7;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+/* ____________________________________________________________________________________________________ */
+div.right {
+    height: 98vh;
+    /* width: 75vw; */
+    background-color: #121212;
+    border-radius: 5px;
+    position: relative;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+
+/* .................................................................................................... */
+div.right .navbar {
+    background-color: rgb(7, 7, 7);
+    min-height: 10%;
+    width: 100%;
+    border-radius: 5px;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    /* z-index: 1; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .ham-arrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+div.right .navbar .arrow img {
+    height: 20px;
+    width: 25px;
+}
+
+
+div.right .navbar .buttons .signup {
+    border-style: none;
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(150, 150, 150);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0px 0px;
+}
+
+div.right .navbar .buttons .login {
+    border-style: none;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin: 0px 20px;
+}
+
+div.right .navbar .buttons .signup:hover {
+    font-size: 17px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+div.right .navbar .buttons .login:hover {
+    font-size: 18px;
+    padding: 16px 31px;
+    cursor: pointer;
+
+
+}
+
+/*.................................................................................................... */
+div.right .heading h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px 10px 20px;
+}
+
+/*.................................................................................................... */
+div.right .albumcontainer {
+    margin: 0px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* height:50vh; */
+    overflow-y: auto;
+    /* flex: 1; */
+    background-color: #121212;
+     /* padding-bottom:1%; */
+     /* margin-bottom: 160px; */
+}
+
+
+div.right .albumcontainer .card {
+    height: 330px;
+    width: 250px;
+    background-color: rgb(26, 26, 26);
+
+    margin: 0px 3px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 0px 0px 0px; */
+    position: relative;
+
+
+}
+
+div.right .albumcontainer .card .play {
+    position: absolute;
+    bottom: 70px;
+    right: 15px;
+    opacity: 0;
+}
+
+div.right .albumcontainer .card:hover {
+    background-color: rgb(128, 30, 30);
+    transition: 200ms;
+
+    .play {
+        opacity: 1;
+        transition: 200ms ease-in;
+        bottom: 90px;
+    }
+
+}
+
+
+
+div.right .albumcontainer .card .container img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+div.right .albumcontainer .card h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /* font-weight: ; */
+    padding: 5px 0px;
+
+}
+
+div.right .albumcontainer .card p {
+    color: rgb(139, 139, 139);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding: 0px 0px;
+    font-weight: 400;
+    overflow: hidden;  /* Hides overflowing content */
+    display: -webkit-box; /* Required for webkit browsers to specify a flex container */
+    -webkit-box-orient: vertical; /* Required for webkit browsers to define the box orientation */
+    -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+    /* white-space: nowrap; */
+    text-overflow: ellipsis; /* Adds ellipsis (...) at the end of the text */
+
+
+  
+
+}
+
+/*.................................................................................................... */
+
+div.right .PlaybarContainer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    position: absolute;
+    bottom: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.PlaybarContainer .timevol{
+    display: flex;
+    flex-direction: column;
+
+    /* gap: 0px; */
+    align-items: center;
+    justify-content: center;
+}
+.PlaybarContainer .timevol .volume img{
+    height: 20px;
+    width: 20px;
+}
+.PlaybarContainer .timevol .volume input{
+    height: 5px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+    
+
+.PlaybarContainer .timevol .volume{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+div.right .PlaybarContainer .seekbar {
+    height: 5px;
+    width: 99%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 5px;
+    border-radius: 3px;
+    padding: 0px 0px;
+    cursor: pointer;
+}
+
+.durationcontrol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 30px;
+    padding: 30px; */
+}
+
+div.right .PlaybarContainer .circle {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(0, 255, 26);
+    border-radius: 12px;
+    position: relative;
+    bottom: 5px;
+    left: 5px;
+    transition: left 250ms linear;
+}
+
+div.right .PlaybarContainer img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.control{
+    position: relative;
+    cursor: pointer;
+    bottom: 4px;
+}
+.songdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50vw; 
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+.songinfo{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/*.................................................................................................... */
+
+/* ____________________________________________________________________________________________________ */
