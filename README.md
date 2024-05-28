@@ -1,6 +1,6 @@
 # Spotify Website Fullfunctional Clone
 
-A clone of the Spotify Website Website built using HTML, CSS, and JavaScript. This project replicates some functionalities and design of the original site for learning and educational purposes.
+A clone of the Spotify Website built using HTML, CSS, and JavaScript. This project replicates some functionalities and design of the original site for learning and educational purposes.
 
 ## Live Demo
 Currently not available
