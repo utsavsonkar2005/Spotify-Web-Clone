@@ -21,7 +21,7 @@ function formatTime(seconds) {
 //This function returns all the songs form our song directory
 async function getSongs(folder) {
     currFolder = folder
-    let response = await fetch(`/${folder}`)
+    let response = await fetch(`/${folder}/`)
     let data = await response.text()
     let parser = new DOMParser();
     let doc = parser.parseFromString(data, "text/html");

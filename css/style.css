@@ -370,7 +370,7 @@ div.right .albumcontainer .card .play {
 }
 
 div.right .albumcontainer .card:hover {
-    background-color: rgb(128, 30, 30);
+    background-color: rgba(0, 211, 35, 0.596);
     transition: 200ms;
 
     .play {
@@ -399,7 +399,7 @@ div.right .albumcontainer .card h2 {
 }
 
 div.right .albumcontainer .card p {
-    color: rgb(139, 139, 139);
+    color: rgb(196, 196, 196);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
     padding: 0px 0px;
@@ -407,7 +407,7 @@ div.right .albumcontainer .card p {
     overflow: hidden;  /* Hides overflowing content */
     display: -webkit-box; /* Required for webkit browsers to specify a flex container */
     -webkit-box-orient: vertical; /* Required for webkit browsers to define the box orientation */
-    -webkit-line-clamp: 2; /* Limits the text to 2 lines */
+    -webkit-line-clamp: 2; /*Limits the text to 2 lines*/
     /* white-space: nowrap; */
     text-overflow: ellipsis; /* Adds ellipsis (...) at the end of the text */
 
